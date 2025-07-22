@@ -1,0 +1,60 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Music Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎵 Welcome to My Music & Merch Store 🎵</h1>
+    <p>Watch videos, buy tracks, and shop exclusive merch!</p>
+  </header>
+
+  <!-- Lead Capture Form -->
+  <section id="signup">
+    <h2>Get Exclusive Drops</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <button type="submit">Join</button>
+    </form>
+  </section>
+
+  <!-- Video Section -->
+  <section id="videos">
+    <h2>🎬 Music Videos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/your_video_id" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <!-- Music Store -->
+  <section id="music">
+    <h2>🎧 Buy Music</h2>
+    <div class="item">
+      <img src="cover1.jpg" alt="Cover Art">
+      <h3>Track Name 1</h3>
+      <audio controls src="track1.mp3"></audio>
+      <p>Price: $1.99</p>
+      <a href="https://payhip.com/yourlink" class="buy-button">Buy & Download</a>
+    </div>
+  </section>
+
+  <!-- Merch Store -->
+  <section id="merch">
+    <h2>🛍️ Merch</h2>
+    <div class="item">
+      <img src="shirt.jpg" alt="T-shirt">
+      <h3>Logo Tee</h3>
+      <p>$25.00</p>
+      <a href="https://yourstorelink.com" class="buy-button">Buy Now</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name – All rights reserved</p>
+  </footer>
+</body>
+</html>
