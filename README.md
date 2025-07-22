@@ -3,12 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
-    header {
-      background: #000;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
+
 </head>
 <body>
 
