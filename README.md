@@ -67,6 +67,32 @@ body {
   text-align: center;
 }
 
+<section id="videos">
+  <h2>🎬 My Music Videos</h2>
+
+  <!-- Example YouTube Embed -->
+  <div class="video">
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="YouTube video player" 
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Add more videos by repeating this block -->
+  <div class="video">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+            title="Your Video Title"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+   
+    </iframe>
+  </div>
+</section>
 header {
   padding: 40px 20px;
   background-color: #1e1e1e;
