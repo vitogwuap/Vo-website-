@@ -3,59 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VO ENT</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #111;
-      color: #f2f2f2;
-      margin: 0;
-      padding: 0;
-    }
+  
     header {
       background: #000;
       text-align: center;
       padding: 2rem 1rem;
-    }
-    header img {
-      max-width: 150px;
-      margin-bottom: 1rem;
-    }
-    header h1 {
-      font-size: 3rem;
-      margin: 0;
-    }
-    section {
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    a.button {
-      display: inline-block;
-      margin: 1rem;
-      padding: 1rem 2rem;
-      background: #f00;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    .footer {
-      background: #222;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
-    .item {
-      margin: 2rem auto;
-      max-width: 300px;
-    }
-    .item img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
-    .item h3, .item p {
-      margin: 0.5rem 0;
-    }
-  </style>
+    }
 </head>
 <body>
 
